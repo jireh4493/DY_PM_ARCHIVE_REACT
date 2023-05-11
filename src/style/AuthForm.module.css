@@ -1,0 +1,162 @@
+body {
+  margin: 0px;
+}
+
+input {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
+.container {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+
+  margin: 0px 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+
+  padding: 25px 40px 15px 40px;
+}
+
+.DYTitleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
+.DYTitle1 {
+  font-family: 'Pretendard', 'Apple SD Gothic Neo', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.DYTitle2 {
+  font-family: 'Pretendard', 'Apple SD Gothic Neo', sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+
+  margin-top: -7px;
+}
+
+.authFormContainer {
+  margin-bottom: 15px;
+}
+
+.authFormTitleMain {
+  font-family: 'Pretendard', 'Apple SD Gothic Neo', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.authFormTitleSub {
+  font-family: 'Pretendard', 'Apple SD Gothic Neo', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.authFormInputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.authFormInput {
+  font-family: 'Pretendard', 'Apple SD Gothic Neo', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  width: 100%;
+  height: 35px;
+  margin: 0px 10px;
+  margin-bottom: 10px;
+  padding: 1px 5px;
+  border: none;
+  border-bottom: 1px solid black;
+
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
+.authFormError {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  margin-top: 15px;
+
+  font-family: 'Pretendard', 'Apple SD Gothic Neo', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: red;
+}
+
+.authFormSubmitContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+
+.authFormSubmit {
+  font-family: 'Pretendard', 'Apple SD Gothic Neo', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  height: 36px;
+  margin-left: 10px;
+
+  border-style: none;
+  border: 1px solid black;
+  border-radius: 5px;
+
+  background-color: white;
+}
+
+.scrollDownContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 50px;
+}
+
+.scrollDownArrow {
+  opacity: 25%;
+}
+
+.scrollDownText {
+  font-family: 'Pretendard', 'Apple SD Gothic Neo', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  
+  color: #00000075;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 300px;
+  margin-bottom: 50px;
+}
+
+.easterEggPhoto {
+  width: 250px;
+  border-radius: 20px;
+}
+
+footer div {
+  font-family: 'Pretendard', 'Apple SD Gothic Neo', sans-serif;
+  font-weight: 400;
+}
+
+footer div .highlight {
+  font-weight: 600;
+  font-size: 18px;
+}
+
